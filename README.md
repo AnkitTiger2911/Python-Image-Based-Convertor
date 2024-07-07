@@ -10,6 +10,15 @@ The Python-Based Image Converter is a simple yet effective tool for transforming
 # Install the OpenCV library. You can do this using pip:
 pip install opencv-python`
 
+# Usage
+1. Clone this repository to your local machine: 
+git clone https://github.com/yourusername/image-converter.gitcd image-converter
+2. Place the color image you want to convert in the project directory.
+3. Run the convert_to_grayscale.py script:
+python convert_to_grayscale.py <input_image> <output_image>
+4. This will convert color_image.jpg to a grayscale image and save it as grayscale_image.jpg.
+python convert_to_grayscale.py color_image.jpg grayscale_image.jpg
+
 
 
 
